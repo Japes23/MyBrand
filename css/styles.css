@@ -1,0 +1,486 @@
+#navigation-bar {
+  padding: 2.5px 40px;
+  background-color: #7FB77E;
+}
+
+body {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.5rem;
+}
+
+.brand-title {
+  font-family: 'Signika', cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.links {
+  font-weight: 300;
+  font-size: 1.20rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.logo-title {
+  position: relative;
+  height: auto;
+  width: 100px;
+  margin-right: 10px;
+}
+
+#welcome-page {
+  padding: 7.6% 15% 7.6%;
+  text-align: center;
+  background-color: #FFC090;
+}
+
+.welcome-title {
+  padding-top: 1.5%;
+  padding-bottom: 2.5%;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.welcome-subtitle {
+  padding-bottom: 20px;
+  font-family: 'Signika', sans-serif;
+  font-style: italic;
+}
+
+#about {
+  padding: 7% 14%;
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+
+.about-title {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+}
+
+.fa-icon {
+  color: #FFC090;
+  margin: 1rem;
+}
+
+.fa-icon:hover {
+  color: #F7F6DC;
+}
+
+.feature-title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.feature-subtitle {
+  font-size: 2rem;
+}
+
+#homepage-menu {
+  padding: 1.5% 5%;
+  background-color: #F7F6DC;
+}
+
+.menu-title {
+  font-family: 'Pacifico', cursive;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.menu-img {
+  width: 500px;
+}
+
+.carousel-item {
+  padding: 7% 14%;
+}
+
+.fab-icon {
+  padding-right: 10px;
+}
+
+#menu {
+  text-align: center;
+  padding: 3% 7%;
+  background-color: #F7F6DC;
+}
+
+.card-title {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+
+.cold-heading {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+
+.mais-con-yelo {
+  padding-top: 20px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.kutsinta {
+  padding-top: 30px;
+}
+
+.leche-flan {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.turon {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.pancit {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.menu-merienda {
+  padding-top: 50px;
+}
+
+.merienda-heading {
+  padding-top: 3%;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+
+.item-price {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 900;
+  font-size: 1.6rem;
+  padding-left: 10px;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.order-confirm {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.col-body {
+  padding: 1.5% 10%
+}
+
+.body-size {
+  width: 100%;
+}
+
+#feedback {
+  padding: 40px;
+  background-color: #FFC090;
+  text-align: center;
+}
+
+.feedback-title {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.carousel-item {
+  padding: 7% 14%;
+}
+
+.feedback-text {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.feedback-image {
+  border-radius: 50%;
+  width: 12%;
+  margin: 20px;
+}
+
+#footer {
+  padding: 7% 14%;
+  text-align: center;
+}
+
+.foot-icon {
+  padding: 20px 10px;
+}
+
+@media (max-width: 1440px) {
+  #navigation-bar {
+    padding: 2.5px 30px;
+  }
+
+  .welcome-logo {
+    width: 500px;
+  }
+
+  .welcome-title {
+    font-size: 4rem;
+  }
+
+  .welcome-subtitle {
+    font-size: 2.5rem;
+  }
+
+  .btn-direct {
+    font-size: 2.5rem;
+  }
+
+  .copyright {
+    font-size: 2rem;
+  }
+
+  .feature-title{
+    font-size: 2.5rem;
+  }
+
+  .feature-subtitle{
+    font-size: 2rem;
+  }
+
+  .menu-title{
+    font-size: 3rem;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .welcome-logo {
+    width: 400px;
+  }
+
+  .welcome-title {
+    font-size: 3rem;
+  }
+
+  .welcome-subtitle {
+    font-size: 2rem;
+  }
+
+  .btn-direct {
+    font-size: 2rem;
+  }
+
+  .copyright {
+    font-size: 1rem;
+  }
+
+  .feature-title{
+    font-size: 2rem;
+  }
+
+  .feature-subtitle{
+    font-size: 1.5rem;
+  }
+
+  .menu-title{
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #navigation-bar {
+    padding: 2.5px 20px;
+  }
+
+  .welcome-logo {
+    width: 250px;
+  }
+
+  .welcome-title {
+    font-size: 1.5rem;
+  }
+
+  .welcome-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .btn-direct {
+    font-size: 1rem;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+
+  .about-title{
+    font-size: 2rem;
+  }
+
+  .feature-title{
+    font-size: 2rem;
+  }
+
+  .feature-subtitle{
+    font-size: 1.5rem;
+  }
+
+  .menu-title{
+    font-size: 1.5rem;
+  }
+
+  .menu-img{
+    width: 250px;
+    height: 400px
+  }
+
+  .feedback-title{
+    font-size: 2rem;
+  }
+
+  .feedback-text{
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width: 425px) {
+  #navigation-bar {
+    padding: 2.5px 10px;
+  }
+
+  .logo-title{
+    width: 30%;
+  }
+
+  .brand-title{
+    font-size: 2rem;
+  }
+
+  .welcome-logo {
+    width: 150px;
+  }
+
+  .welcome-title {
+    font-size: 1.8rem;
+  }
+
+  .welcome-subtitle {
+    font-size: 1rem;
+  }
+
+  .btn-direct {
+    font-size: 1rem;
+  }
+
+  .about-title{
+    font-size: 1.5rem;
+  }
+
+  .feature-title{
+    font-size: 1.5rem;
+  }
+
+  .feature-subtitle{
+    font-size: 1rem;
+  }
+
+  .menu-title{
+    font-size: 1.5rem;
+  }
+
+  .btn-download{
+    font-size: 1rem;
+  }
+
+  .menu-img{
+    width: 250px;
+    height: 300px
+  }
+
+  .feedback-title{
+    font-size: 1.5rem;
+  }
+
+  .feedback-text{
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 375px) {
+  b{
+    font-size: 1rem;
+  }
+  em{
+    font-size: 1rem;
+  }
+
+  #navigation-bar {
+    padding: 2.5px 10px;
+  }
+
+  .brand-title{
+    font-size: 1.5rem;
+  }
+
+  .welcome-logo {
+    width: 150px;
+  }
+
+  .logo-title{
+    width: 75px;
+  }
+
+  .welcome-title {
+    font-size: 1.2rem;
+  }
+
+  .welcome-subtitle {
+    font-size: 1rem;
+  }
+
+  .btn-direct {
+    font-size: 1rem;
+  }
+
+  .about-title{
+    font-size: 1rem;
+  }
+
+  .feature-title{
+    font-size: 1rem;
+  }
+
+  .feature-subtitle{
+    font-size: 0.8rem;
+  }
+
+  .menu-title{
+    font-size: 1rem;
+  }
+
+  .btn-download{
+    font-size: 0.7rem;
+  }
+
+  .menu-img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .feedback-title{
+    font-size: 1.5rem;
+  }
+
+  .feedback-text{
+    font-size: 1rem;
+  }
+}

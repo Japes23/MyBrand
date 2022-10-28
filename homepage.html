@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gunita</title>
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+  <!--CSS Links-->
+  <link rel="stylesheet" href="css/styles.css">
+  <!--FontAwesome-->
+  <script src="https://kit.fontawesome.com/c1bce45b9f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="navigation-bar">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <img class="logo-title" src="images/logo.png" alt="logo-img">
+        <a class="navbar-brand brand-title" href="index.html">Gunita</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link links" href="index.html">Welcome</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="#feedback">Feedback</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="#footer">Contacts</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  </section>
+  <section id="about">
+    <div>
+      <h1 class="about-title">ABOUT US</h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 feature-col">
+        <i class="fa-solid fa-ice-cream fa-4x fa-icon"></i>
+        <h3 class="feature-title">Filipino Food Cravings</h3>
+        <p class="feature-subtitle">Offers a variety of Filipino Desserts and Merienda that satisfies your cravings!</p>
+      </div>
+      <div class="col-lg-4 feature-col">
+        <i class="fa-solid fa-truck fa-4x fa-icon"></i>
+        <h3 class="feature-title">Convenient</h3>
+        <p class="feature-subtitle">Fast delivery and accepts cash-on-delivery or pick-up orders in nearby store!</p>
+      </div>
+      <div class="col-lg-4 feature-col">
+        <i class="fa-solid fa-seedling fa-4x fa-icon"></i>
+        <h3 class="feature-title">Eco-Friendly</h3>
+        <p class="feature-subtitle">Our shop encourages plastic-free environment to help reduce the production of waste</p>
+      </div>
+    </div>
+  </section>
+  <section id="homepage-menu">
+    <div class="row">
+      <div class="col">
+        <div>
+          <h1 class="menu-title">Here at Gunita, we promise to satisfy your cravings for your favorite Filipino Delicacies!</h1>
+          <h1 class="menu-title">Check out the list of products we offer!</h1>
+          <a class="btn btn-dark btn-lg btn-download" href="menu.html"><i class="fa-solid fa-utensils fab-icon"></i>See Menu</a>
+        </div>
+      </div>
+      <div class="col">
+        <div id="carousel-slide" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="menu-img" src="images/halo-halo.png" alt="halo-halo-img">
+            </div>
+            <div class="carousel-item">
+              <img class="menu-img" src="images/leche-flan.jpg" alt="leche-flan-img">
+            </div>
+            <div class="carousel-item">
+              <img class="menu-img" src="images/puto.jpg" alt="puto-img">
+            </div>
+            <div class="carousel-item">
+              <img class="menu-img" src="images/turon.jpg" alt="turon-img">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="feedback">
+    <div>
+      <h1 class="feedback-title">THANK YOU FOR YOUR FEEDBACKS!</h1>
+    </div>
+    <div id="feedback-slide" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="feedback-text">Solid yung Buko Pandan Salad masarap at kakulay ng hat ko. Sayang nga lang wala silang alak :(</h2>
+          <img class="feedback-image" src="images/venti.jpg" alt="venti-profile">
+          <em><b>Venti</b>, Anemo Archon</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="feedback-text">Galing pa akong Plane of Euthymia para lang tikman yung Mais Con Yelo nila na sobrang sarap!</h2>
+          <img class="feedback-image" src="images/raiden.jpg" alt="raiden-profile">
+          <em><b>Raiden Shogun</b>, Electro Archon</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="feedback-text">I like the Halo-halo coz marami siyang ingredients and Banana Chips is my favorite kasi yung saging nila freshly picked from Sumeru <3</h2>
+          <img class="feedback-image" src="images/nahida.jpg" alt="nahida-profile">
+          <em><b>Nahida</b>, Dendro Archon</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#feedback-slide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#feedback-slide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+  <footer id="footer">
+    <i class="foot-icon fa-brands fa-twitter"></i>
+    <i class="foot-icon fa-brands fa-facebook"></i>
+    <i class="foot-icon fa-brands fa-instagram"></i>
+    <i class="foot-icon fa-regular fa-envelope"></i>
+    <p class="copyright">© Copyright 2022 Gunita</p>
+  </footer>
+</body>
+
+</html>
